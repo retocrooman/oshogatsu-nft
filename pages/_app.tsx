@@ -10,6 +10,7 @@ import { argentWallet, trustWallet } from '@rainbow-me/rainbowkit/wallets';
 import { createClient, configureChains, WagmiConfig } from 'wagmi';
 import { Chain } from 'wagmi/chains';
 import { publicProvider } from 'wagmi/providers/public';
+import Header from '../components/header';
 
 const goerli: Chain = {
   id: 5,
@@ -71,6 +72,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <WagmiConfig client={wagmiClient}>
       <RainbowKitProvider appInfo={demoAppInfo} chains={chains}>
+        <Header/>
         <Component {...pageProps} />
       </RainbowKitProvider>
     </WagmiConfig>
