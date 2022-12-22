@@ -1,4 +1,6 @@
 export const contractAddressMap = {
-    "うさぎたうくん年賀状 2023": "0x1fc486b516a1cf7e3bb44b8d3f7ced5de98b9ce3",
-    "ITEM NAME AAAAAAAAAA": "0x9365602ba977edc94389119b3d112de1fe50d799"
+    "うさぎたうくん年賀状 2023": "0xa8e8d213da37e0655f113d85bb68eb31d2ae0ddc",
+    "ITEM NAME A": "0x6fb881308ad819329ffda3e0ac10ab886a746a4f",
+    "ITEM NAME B": "0x9f8ffd04fae808bd40b692918f256befa525f18d",
+    "ITEM NAME C": "0xd344a4fe36c35bb223476032b745cc2482df1777"
 }

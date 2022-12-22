@@ -3,6 +3,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { MintButton } from './mint-button'
 import { contractAddressMap } from '../constant/contractAddressMap'
+import { GasFreeMintButton } from './gas-free-mint-button'
 
 const NFTCard = (props) => {
   return (
@@ -23,7 +24,7 @@ const NFTCard = (props) => {
           </span>
           <h3 className="n-f-t-card-first-name1 Heading3">{props.item_name}</h3>
           <div className="n-f-t-card-container1">
-            <MintButton contractAddress={contractAddressMap[props.item_name]}/>
+            <GasFreeMintButton contractAddress={contractAddressMap[props.item_name]}/>
           </div>
         </article>
       </>

@@ -160,7 +160,13 @@ export const abi = [
         "type": "function"
     },
     {
-        "inputs": [],
+        "inputs": [
+            {
+                "internalType": "address",
+                "name": "to",
+                "type": "address"
+            }
+        ],
         "name": "mint",
         "outputs": [],
         "stateMutability": "nonpayable",
@@ -334,7 +340,7 @@ export const abi = [
                 "type": "string"
             }
         ],
-        "stateMutability": "view",
+        "stateMutability": "pure",
         "type": "function"
     },
     {

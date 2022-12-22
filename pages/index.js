@@ -21,10 +21,10 @@ const Home = (props) => {
             className="home-image"
           />
           <section className="home-hero section-container">
-            <div className="home-container1 max-content-container">
+            {/* <div className="home-container1 max-content-container">
               <h2 className="home-text Heading2">キャンペーンやるなら</h2>
               <Campaign></Campaign>
-            </div>
+            </div> */}
           </section>
           <section className="home-services section-container">
             <div className="home-max-width max-content-container">
@@ -58,26 +58,31 @@ const Home = (props) => {
                   rootClassName="n-f-t-card-root-class-name6"
                 ></NFTCard>
                 <NFTCard
+                  item_name="ITEM NAME A"
                   price="999,999 JPYC"
                   image_src="/playground_assets/unsplash_wwqrpsnbpq4-400h.png"
                   rootClassName="n-f-t-card-root-class-name7"
                 ></NFTCard>
                 <NFTCard
+                  item_name="ITEM NAME B"
                   price="999,999 JPYC"
                   image_src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxjb2NhJTIwY29sYXxlbnwwfHx8fDE2NDY5MjYyNTM&amp;ixlib=rb-1.2.1&amp;h=400"
                   rootClassName="n-f-t-card-root-class-name8"
                 ></NFTCard>
                 <NFTCard
+                  item_name="ITEM NAME C"
                   price="999,999 JPYC"
                   image_src="https://images.unsplash.com/photo-1519420573924-65fcd45245f8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fG51dGVsbGF8ZW58MHx8fHwxNjQ2OTI2MTky&amp;ixlib=rb-1.2.1&amp;h=400"
                   rootClassName="n-f-t-card-root-class-name9"
                 ></NFTCard>
                 <NFTCard
+                  item_name="ITEM NAME C"
                   price="999,999 JPYC"
                   image_src="https://images.unsplash.com/photo-1567103472667-6898f3a79cf2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGNvY2ElMjBjb2xhfGVufDB8fHx8MTY0NjkyNjI1Mw&amp;ixlib=rb-1.2.1&amp;h=400"
                   rootClassName="n-f-t-card-root-class-name10"
                 ></NFTCard>
                 <NFTCard
+                  item_name="ITEM NAME C"
                   price="999,999 JPYC"
                   image_src="https://images.unsplash.com/photo-1545231027-637d2f6210f8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHN0YXJidWNrc3xlbnwwfHx8fDE2NDY5MjYyMzc&amp;ixlib=rb-1.2.1&amp;h=400"
                   rootClassName="n-f-t-card-root-class-name11"
