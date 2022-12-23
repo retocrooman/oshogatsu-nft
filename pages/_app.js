@@ -15,7 +15,7 @@ import { goerli } from "../constant/network";
 
 const { chains, provider } = configureChains(
   [goerli],
-  [alchemyProvider({ apiKey: process.env.NEXT_PUBLIC_ALCHEMY_ID }), publicProvider()]
+  [alchemyProvider({ apiKey: "y8qlo3CaD9LfXJLHd0Jy7c3GfZXAssY7" }), publicProvider()]
 );
 const { connectors } = getDefaultWallets({
   appName: "My RainbowKit App",
