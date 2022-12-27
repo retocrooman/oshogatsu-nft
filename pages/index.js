@@ -28,21 +28,24 @@ const Home = (props) => {
           </section>
           <section className="home-message section-container">
             <div className="home-max-width max-content-container">
-              <h2 className="home-text01">何かしらのメッセージ</h2>
+              <h2 className="home-text01">輝かしい年頭にあたり 皆様のご健康とご多幸をお祈り申し上げます</h2>
               <p className="home-text02">
                 <span className="Content">
-                  何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ
+                  旧年中はご愛顧を賜り厚く御礼申し上げます。
                 </span>
                 <br></br>
                 <br></br>
                 <span>
-                  何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ
+                  この度、ひろしまDAOは新年を祝い年賀状NFTを無料で配布することにしました。
                 </span>
                 <br></br>
                 <span>
-                  何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ何かしらのメッセージ
+                  何方でもウォレット接続ボタンからウォレットを接続し、お好きな年賀状NFTを発行いただけます。
                 </span>
                 <br></br>
+                <span>
+                  Polygonチェーンで発行しておりますが、ガス代はかかりません。ご安心ください。
+                </span>
               </p>
             </div>
           </section>
@@ -53,34 +56,33 @@ const Home = (props) => {
                 <MintCard
                   corp_name="株式会社CodeFox"
                   image_alt="CodeFox2023"
-                  image_src="/playground_assets/img_0675-500h.png"
+                  image_src="/playground_assets/img_codefox.png"
                   item_name="うさぎたうくん年賀状 2023"
                   rootClassName="mint-card-root-class-name6"
                 ></MintCard>
                 <MintCard
-                  price="999,999 JPYC"
-                  image_src="https://images.unsplash.com/photo-1556906781-9a412961c28c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG5pa2V8ZW58MHx8fHwxNjcyMDQwOTI0&amp;ixlib=rb-4.0.3&amp;h=500"
+                  corp_name="星山　雄史"
+                  image_src="/playground_assets/img_hoshiyama.png"
+                  item_name="New Year`s card by Hoshiyama"
                   rootClassName="mint-card-root-class-name7"
                 ></MintCard>
                 <MintCard
-                  price="999,999 JPYC"
-                  image_src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEzfHxjb2NhJTIwY29sYXxlbnwwfHx8fDE2NDY5MjYyNTM&amp;ixlib=rb-1.2.1&amp;h=400"
-                  rootClassName="mint-card-root-class-name8"
+                  corp_name="相原　悠平"
+                  image_src="/playground_assets/img_aihara.png"
+                  item_name="New Year`s card by Aihara"
+                  rootClassName="mint-card-root-class-name7"
                 ></MintCard>
                 <MintCard
-                  price="999,999 JPYC"
-                  image_src="https://images.unsplash.com/photo-1519420573924-65fcd45245f8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDJ8fG51dGVsbGF8ZW58MHx8fHwxNjQ2OTI2MTky&amp;ixlib=rb-1.2.1&amp;h=400"
-                  rootClassName="mint-card-root-class-name9"
+                  corp_name="株式会社オノゴロ"
+                  image_src="/playground_assets/img_onogoro.png"
+                  item_name="オノゴロNFT年賀状"
+                  rootClassName="mint-card-root-class-name7"
                 ></MintCard>
                 <MintCard
-                  price="999,999 JPYC"
-                  image_src="https://images.unsplash.com/photo-1567103472667-6898f3a79cf2?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fGNvY2ElMjBjb2xhfGVufDB8fHx8MTY0NjkyNjI1Mw&amp;ixlib=rb-1.2.1&amp;h=400"
-                  rootClassName="mint-card-root-class-name10"
-                ></MintCard>
-                <MintCard
-                  price="999,999 JPYC"
-                  image_src="https://images.unsplash.com/photo-1545231027-637d2f6210f8?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHN0YXJidWNrc3xlbnwwfHx8fDE2NDY5MjYyMzc&amp;ixlib=rb-1.2.1&amp;h=400"
-                  rootClassName="mint-card-root-class-name11"
+                  corp_name="MATSURI NFT"
+                  image_src="/playground_assets/img_matsuri.png"
+                  item_name="2023 MATSURI NFT ~始動"
+                  rootClassName="mint-card-root-class-name7"
                 ></MintCard>
               </div>
             </div>
@@ -123,7 +125,7 @@ const Home = (props) => {
                   </li>
                   <li className="list-item">
                     <span>
-                      ガス代不要で無料で発行いただけますので、自由にお取りくださ。
+                      ガス代不要で無料で発行いただけますので、自由にお取りください。
                     </span>
                   </li>
                   <li className="list-item">
@@ -143,20 +145,12 @@ const Home = (props) => {
                 <h3 className="home-text23">協賛企業一覧</h3>
                 <div className="home-list">
                   <a
-                    href="https://jpyc.co.jp/"
+                    href="https://codefox.co.jp/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link"
+                    className="home-link02"
                   >
-                    JPYC株式会社
-                  </a>
-                  <a
-                    href="https://jpyc.co.jp/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="home-link01"
-                  >
-                    JPYC株式会社
+                    株式会社CodeFox
                   </a>
                   <a
                     href="https://jpyc.co.jp/"
@@ -167,52 +161,28 @@ const Home = (props) => {
                     JPYC株式会社
                   </a>
                   <a
+                    href="https://web-rampage.com/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link02"
+                  >
+                    株式会社RAMPAGE
+                  </a>
+                  <a
+                    href="https://onogoro.co.jp/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link02"
+                  >
+                    株式会社オノゴロ
+                  </a>
+                  <a
                     href="https://otagroup.co.jp/"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="home-link03"
                   >
                     OTAGROUP株式会社
-                  </a>
-                  <a
-                    href="https://otagroup.co.jp/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="home-link04"
-                  >
-                    OTAGROUP株式会社
-                  </a>
-                  <a
-                    href="https://otagroup.co.jp/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="home-link05"
-                  >
-                    OTAGROUP株式会社
-                  </a>
-                  <a
-                    href="https://codefox.co.jp/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="home-link06"
-                  >
-                    CodeFox Inc.
-                  </a>
-                  <a
-                    href="https://codefox.co.jp/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="home-link07"
-                  >
-                    CodeFox Inc.
-                  </a>
-                  <a
-                    href="https://codefox.co.jp/"
-                    target="_blank"
-                    rel="noreferrer noopener"
-                    className="home-link08"
-                  >
-                    CodeFox Inc.
                   </a>
                 </div>
               </div>
@@ -276,7 +246,6 @@ const Home = (props) => {
           .home-image {
             width: 100%;
             height: auto;
-            max-width: var(--dl-size-size-maxwidth);
             align-self: center;
             object-fit: cover;
           }
