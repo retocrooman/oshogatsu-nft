@@ -9,9 +9,10 @@ import { configureChains, createClient, WagmiConfig } from "wagmi";
 import { alchemyProvider } from "wagmi/providers/alchemy";
 import { publicProvider } from "wagmi/providers/public";
 import { goerli } from "../constant/network";
+import { polygon } from "wagmi/chains";
 
 const { chains, provider } = configureChains(
-  [goerli],
+  [polygon],
   [
     alchemyProvider({ apiKey: "y8qlo3CaD9LfXJLHd0Jy7c3GfZXAssY7" }),
     publicProvider(),

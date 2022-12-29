@@ -28,7 +28,9 @@ const Home = (props) => {
           </section>
           <section className="home-message section-container">
             <div className="home-max-width max-content-container">
-              <h2 className="home-text01">輝かしい年頭にあたり 皆様のご健康とご多幸をお祈り申し上げます</h2>
+              <h2 className="home-text01">
+                輝かしい年頭にあたり 皆様のご健康とご多幸をお祈り申し上げます
+              </h2>
               <p className="home-text02">
                 <span className="Content">
                   旧年中はご愛顧を賜り厚く御礼申し上げます。
@@ -82,6 +84,18 @@ const Home = (props) => {
                   corp_name="MATSURI NFT"
                   image_src="/playground_assets/img_matsuri.png"
                   item_name="2023 MATSURI NFT ~始動"
+                  rootClassName="mint-card-root-class-name7"
+                ></MintCard>
+                <MintCard
+                  corp_name="JPYC株式会社"
+                  image_src="/playground_assets/img_jpyc.png"
+                  item_name="JPYC年賀状 2023"
+                  rootClassName="mint-card-root-class-name7"
+                ></MintCard>
+                <MintCard
+                  corp_name="OTAGROUP株式会社"
+                  image_src="/playground_assets/img_otagroup.png"
+                  item_name="OTAGROUP株式会社NFT年賀状"
                   rootClassName="mint-card-root-class-name7"
                 ></MintCard>
               </div>
@@ -246,6 +260,7 @@ const Home = (props) => {
           .home-image {
             width: 100%;
             height: auto;
+            max-width: var(--dl-size-size-maxwidth);
             align-self: center;
             object-fit: cover;
           }
