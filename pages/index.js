@@ -63,15 +63,21 @@ const Home = (props) => {
                   rootClassName="mint-card-root-class-name6"
                 ></MintCard>
                 <MintCard
-                  corp_name="星山　雄史"
-                  image_src="/playground_assets/img_hoshiyama.png"
-                  item_name="New Year`s card by Hoshiyama"
+                  corp_name="JPYC株式会社"
+                  image_src="/playground_assets/img_jpyc.png"
+                  item_name="JPYC年賀状 2023"
                   rootClassName="mint-card-root-class-name7"
                 ></MintCard>
                 <MintCard
-                  corp_name="相原　悠平"
-                  image_src="/playground_assets/img_aihara.png"
-                  item_name="New Year`s card by Aihara"
+                  corp_name="株式会社RAMPAGE"
+                  image_src="/playground_assets/img_matsuri.png"
+                  item_name="2023 MATSURI NFT ~始動"
+                  rootClassName="mint-card-root-class-name7"
+                ></MintCard>
+                <MintCard
+                  corp_name="OTAGROUP株式会社"
+                  image_src="/playground_assets/img_otagroup.png"
+                  item_name="OTAGROUP株式会社NFT年賀状"
                   rootClassName="mint-card-root-class-name7"
                 ></MintCard>
                 <MintCard
@@ -81,21 +87,15 @@ const Home = (props) => {
                   rootClassName="mint-card-root-class-name7"
                 ></MintCard>
                 <MintCard
-                  corp_name="MATSURI NFT"
-                  image_src="/playground_assets/img_matsuri.png"
-                  item_name="2023 MATSURI NFT ~始動"
+                  corp_name="星山　雄史"
+                  image_src="/playground_assets/img_hoshiyama.png"
+                  item_name="New Year`s card by Hoshiyama"
                   rootClassName="mint-card-root-class-name7"
                 ></MintCard>
                 <MintCard
-                  corp_name="JPYC株式会社"
-                  image_src="/playground_assets/img_jpyc.png"
-                  item_name="JPYC年賀状 2023"
-                  rootClassName="mint-card-root-class-name7"
-                ></MintCard>
-                <MintCard
-                  corp_name="OTAGROUP株式会社"
-                  image_src="/playground_assets/img_otagroup.png"
-                  item_name="OTAGROUP株式会社NFT年賀状"
+                  corp_name="相原　悠平"
+                  image_src="/playground_assets/img_aihara.png"
+                  item_name="New Year`s card by Aihara"
                   rootClassName="mint-card-root-class-name7"
                 ></MintCard>
               </div>
