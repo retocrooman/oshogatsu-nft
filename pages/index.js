@@ -38,7 +38,7 @@ const Home = (props) => {
                 <br></br>
                 <br></br>
                 <span>
-                  この度、ひろしまDAOは新年を祝い年賀状NFTを無料で配布することにしました。
+                  この度、ひろしまDAOは新年を祝い年賀状NFTを無料で配布することとなりました。
                 </span>
                 <br></br>
                 <span>
@@ -50,15 +50,16 @@ const Home = (props) => {
                 </span>
                 <br></br>
                 <br></br>
-                <span>
-                  受け取りにあたっては、
-                </span>
-                <a style={{"color": "blue"}} href="https://codefox-jp.notion.site/NFT-a49a8dac7c8b4a2c9c1d40a1cf933e4c">
+                <span>受け取りにあたっては、</span>
+                <a
+                  style={{ color: "blue" }}
+                  href="https://codefox-jp.notion.site/NFT-a49a8dac7c8b4a2c9c1d40a1cf933e4c"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   年賀状NFTのお受け取り方法
                 </a>
-                <span>
-                  をご参照ください。
-                </span>
+                <span>をご参照ください。</span>
               </p>
             </div>
           </section>
