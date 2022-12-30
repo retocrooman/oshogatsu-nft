@@ -29,7 +29,7 @@ const Home = (props) => {
           <section className="home-message section-container">
             <div className="home-max-width max-content-container">
               <h2 className="home-text01">
-                輝かしい年頭にあたり 皆様のご健康とご多幸をお祈り申し上げます
+                輝かしい年頭にあたり, 皆様のご健康とご多幸をお祈り申し上げます
               </h2>
               <p className="home-text02">
                 <span className="Content">
@@ -47,6 +47,17 @@ const Home = (props) => {
                 <br></br>
                 <span>
                   Polygonチェーンで発行しておりますが、ガス代はかかりません。ご安心ください。
+                </span>
+                <br></br>
+                <br></br>
+                <span>
+                  受け取りにあたっては、
+                </span>
+                <a style={{"color": "blue"}} href="https://codefox-jp.notion.site/NFT-a49a8dac7c8b4a2c9c1d40a1cf933e4c">
+                  年賀状NFTのお受け取り方法
+                </a>
+                <span>
+                  をご参照ください。
                 </span>
               </p>
             </div>
@@ -162,23 +173,23 @@ const Home = (props) => {
                     href="https://codefox.co.jp/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link02"
+                    className="home-link02 collablink"
                   >
                     株式会社CodeFox
                   </a>
                   <a
                     href="https://jpyc.co.jp/"
                     target="_blank"
-                    rel="noreferrer noopener"
+                    rel="noreferrer noopener collablink"
                     className="home-link02"
                   >
                     JPYC株式会社
                   </a>
                   <a
-                    href="https://web-rampage.com/"
+                    href="http://web-rampage.com/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link02"
+                    className="home-link02 collablink"
                   >
                     株式会社RAMPAGE
                   </a>
@@ -186,7 +197,7 @@ const Home = (props) => {
                     href="https://onogoro.co.jp/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link02"
+                    className="home-link02 collablink"
                   >
                     株式会社オノゴロ
                   </a>
@@ -194,7 +205,7 @@ const Home = (props) => {
                     href="https://otagroup.co.jp/"
                     target="_blank"
                     rel="noreferrer noopener"
-                    className="home-link03"
+                    className="home-link03 collablink"
                   >
                     OTAGROUP株式会社
                   </a>
@@ -203,7 +214,7 @@ const Home = (props) => {
               <div className="home-subscribe-container">
                 <h3 className="home-text24">Copyright</h3>
                 <a
-                  href="https://codefox.co.jp/"
+                  href="https://hiroshima-dao.com/"
                   target="_blank"
                   rel="noreferrer noopener"
                   className="home-link09"
@@ -291,8 +302,7 @@ const Home = (props) => {
           }
           .home-text02 {
             width: 70%;
-            min-width: 400px;
-            text-align: center;
+            text-align: left;
           }
           .home-max-width1 {
             gap: var(--dl-space-space-oneandhalfunits);
@@ -381,33 +391,6 @@ const Home = (props) => {
             align-items: flex-start;
             flex-direction: row;
             justify-content: flex-start;
-          }
-          .home-link {
-            text-decoration: none;
-          }
-          .home-link01 {
-            text-decoration: none;
-          }
-          .home-link02 {
-            text-decoration: none;
-          }
-          .home-link03 {
-            text-decoration: none;
-          }
-          .home-link04 {
-            text-decoration: none;
-          }
-          .home-link05 {
-            text-decoration: none;
-          }
-          .home-link06 {
-            text-decoration: none;
-          }
-          .home-link07 {
-            text-decoration: none;
-          }
-          .home-link08 {
-            text-decoration: none;
           }
           .home-subscribe-container {
             flex: 0 0 auto;
@@ -508,6 +491,9 @@ const Home = (props) => {
             }
           }
           @media (max-width: 479px) {
+            .home-text02 {
+              width: 100%;
+            }
             .home-top-part {
               align-items: center;
               flex-direction: column;
