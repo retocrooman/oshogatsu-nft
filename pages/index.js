@@ -60,6 +60,21 @@ const Home = (props) => {
                   年賀状NFTのお受け取り方法
                 </a>
                 <span>をご参照ください。</span>
+                <br></br>
+                <br></br>
+                <span>
+                  当初
+                </span>
+                <a
+                  style={{ color: "blue" }}
+                  href="https://prtimes.jp/main/html/rd/p/000000003.000107591.html"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
+                  1月11日までの配布期間
+                </a>
+                <span>としておりましたが、当面の間は配布を継続しますので、NFTは初めてという方もぜひご体験ください。ガス代となるmaticのご準備は不要です。
+                </span>
               </p>
             </div>
           </section>
